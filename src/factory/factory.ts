@@ -20,21 +20,12 @@ class ConcreteProductB extends ConcreteProduct {
   }
 }
 
-class ConcreteProductC extends ConcreteProduct {
-  constructor() {
-    super();
-    this.name = 'ConcreteProductC';
-  }
-}
-
 class Creator {
   static createObject(someProperty: string): Product {
     if (someProperty === 'a') {
       return new ConcreteProductA();
-    } else if (someProperty === 'b') {
-      return new ConcreteProductB();
     } else {
-      return new ConcreteProductC();
+      return new ConcreteProductB();
     }
   }
 }
