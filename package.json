@@ -12,6 +12,7 @@
     "start-builder": "node dist/builder/builder.js",
     "start-builder-use-case": "node dist/builder/use-case/client.js",
     "start-prototype": "node dist/prototype/prototype.js",
+    "start-prototype-use-case": "node dist/prototype/use-case/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
