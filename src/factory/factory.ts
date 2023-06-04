@@ -1,8 +1,8 @@
-interface Product {
+interface ProductInterface {
   name: string;
 }
 
-class ConcreteProduct implements Product {
+class ConcreteProduct implements ProductInterface {
   name = '';
 }
 
@@ -21,7 +21,7 @@ class ConcreteProductB extends ConcreteProduct {
 }
 
 class Creator {
-  static createObject(someProperty: string): Product {
+  static createObject(someProperty: string): ProductInterface {
     if (someProperty === 'a') {
       return new ConcreteProductA();
     } else {
