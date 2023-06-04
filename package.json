@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsc --watch",
     "start-factory": "node dist/factory/factory.js",
+    "start-abstract-factory": "node dist/abstract-factory/abstract-factory.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
