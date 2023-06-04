@@ -9,6 +9,7 @@
     "start-factory-use-case": "node dist/factory/use-case/client.js",
     "start-abstract-factory": "node dist/abstract-factory/abstract-factory.js",
     "start-abstract-factory-use-case": "node dist/abstract-factory/use-case/client.js",
+    "start-builder": "node dist/builder/builder.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
