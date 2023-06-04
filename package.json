@@ -13,6 +13,7 @@
     "start-builder-use-case": "node dist/builder/use-case/client.js",
     "start-prototype": "node dist/prototype/prototype.js",
     "start-prototype-use-case": "node dist/prototype/use-case/client.js",
+    "start-singleton": "node dist/singleton/singleton.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
