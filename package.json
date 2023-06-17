@@ -15,6 +15,8 @@
     "start-prototype-use-case": "node dist/prototype/use-case/client.js",
     "start-singleton": "node dist/singleton/singleton.js",
     "start-singleton-use-case": "node dist/singleton/use-case/client.js",
+    "start-decorator": "node dist/decorator/decorator.js",
+    "start-decorator-use-case": "node dist/decorator/use-case/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
