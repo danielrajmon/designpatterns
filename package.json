@@ -19,6 +19,8 @@
     "start-decorator-use-case": "node dist/decorator/use-case/client.js",
     "start-adapter": "node dist/adapter/adapter.js",
     "start-adapter-use-case": "node dist/adapter/use-case/client.js",
+    "start-facade": "node dist/facade/facade.js",
+    "start-facade-use-case": "node dist/facade/use-case/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
